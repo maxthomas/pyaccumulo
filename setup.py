@@ -145,7 +145,7 @@ setup(
         'pytest-incremental',
         ],
       cmdclass=dict(
-        doc = doc, 
+        doc = doc,
         rpm = rpm,
         test = PyTest,
         ),
